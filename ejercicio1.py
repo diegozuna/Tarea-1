@@ -1,0 +1,7 @@
+cantidad_p = input("Hola, ingresa la cantidad de payasos de tu pedido: ")
+cantidad_p = float(cantidad_p)
+cantidad_m = input("perfecto, ahora ingresa la cantidad de muñecas:")
+cantidad_m = float(cantidad_m)
+peso_t = (cantidad_p*112)+(cantidad_m*75)
+peso_t = str(peso_t)
+print("el peso total de su pedido es de:"+peso_t)
